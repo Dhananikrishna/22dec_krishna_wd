@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>jQuery Basic, Effects & Advanced</h2>
+
+ <b>(Q-1) What is jQuery? </b> <br>
+--> jquery is a fast ,small, cross-platform and feature- rich javascript library.<br>
+--> it is designed to simplify the client-side scripting of HTML.<br>
+--> it is also used to add animation.<br><br>
+
+<b>(Q-2) How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery , 
+JQuery Animation?</b><br>
+<b> 1) apply jQuery</b><br>
+--> the css() method sets or returns one or more style properties for the selected element.<br>
+--> to return the value of a specified css property.<br>
+-->EX:- <br>
+$("p").css("background-color");<br>
+<b> 2) add class</b><br>
+--> the addClass() method adds one or more class names to the selected element.<br>
+-->Ex:- <br>
+$("button").click(function(){<br>
+      $("p:first").addClass("intro");<br>
+});<br>
+<b> 3) jQuery addclass()</b><br>
+--> adds one or more classes to the selected elements.<br>
+--> Ex:-<br>
+        $("button").click(function(){<br>
+          &nbsp;&nbsp;$("#div1").addClass("important blue");<br>
+        });<br>
+<b> 4) jQuery Animation</b><br>
+      --> the animate() method performs a custom animation of a set of css properties.<br>
+    --> this method changes an element from one state to another with css styles.<br>
+  -->EX:- <br>
+  $("button").click(function(){<br>
+        &nbsp;&nbsp;  $("#box").animate({height:"300px"});<br>
+  });<br><br>
+
+<b>(Q-3) How to create slider with animation?</b><br>
+--> come up with a strategy for the slider.<br>
+--> update the background image in each slide.<br>
+--> update the text layers in each slide.<br>
+--> edit the button text and design in each slide<br>.
+--> edit the slider navigation.<br>
+
+</body>
+</html>
