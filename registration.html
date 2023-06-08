@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-form</title>
+</head>
+<body>
+    <fieldset style="color: rgb(59, 31, 11);">
+        <legend style="color: brown;">Registration-Form</legend>
+        <form action="registration.html" method="get"><br>
+        
+        First Name: <input type="text" name="fnm"><br><br>
+        Last Name: <input type="text" name="lnm"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Phonr No. <input type="tel" name="phone" pattern="[o-9]{1,11}" required><br><br>
+        Image: <input type="image" name=""><br><br>
+        file: <input type="file" name=""><br><br>
+        Date: <input type="date" name="date"><br><br>
+        date time: <input type="datetime" name=""><br><br>
+        week: <input type="week" name="week"><br><br>
+        month: <input type="month" name=""><br><br>
+
+        are you eligible?: <input type="checkbox" name="eligible?" checked><br><br>
+
+        gender: male<input type="radio" name="gender"> 
+                female<input type="radio" name="gender">
+                other<input type="radio" name="gender"><br><br>
+
+        write about your self:<br> <textarea name="text" cols="30" rows="10"></textarea><br><br>
+
+        <input type="reset" name="reset"><br><br>
+        <input type="submit" name="submit"><br>
+        <button>registration</button>
+    </form>
+
+    </fieldset>
+</body>
+</html>
